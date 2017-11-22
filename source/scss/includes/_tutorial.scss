@@ -1,0 +1,23 @@
+.tutorial{
+    height: 100%;
+    background-color: $primary-color;
+    &_inner{
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    &_header{
+        color: $white;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight:bold;
+        &--center{
+            display: table;
+            margin: auto;
+            text-align: center;
+        }
+        &--left{
+            font-size: 24px;
+        }
+    }
+}
