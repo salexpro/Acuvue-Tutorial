@@ -113,6 +113,16 @@
             background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAsCAYAAACQXhN9AAAEw0lEQVRYR62Y7W9TZRjGr+s53RDFzTeiMhUns+teMP4BQstmRBNjgjo+EBUxaqIEWMvmMhfwIO/K1jWamPhBDTBFB86RQDCOURe/+sUAW+sLKGCCGhkbjBF6nts83UbGds7abvZze//Odb9c933KkqfWFOQP5S0VhWUQzCZwRGkcPl5VcA62rfE/fFi+JLxcBK0A7gFAAH8D0iaW+qjvjjO/or3dmSmHgWBtJ8lnbggkGCCxO+VDNNkVPQVAZgJiIBg+SqLKJcgFEJ+BKtbb3fz7jCBlodrVAHcAmDMpkOBfUg6mfNyc7Ir+Nl0QyxbV3guLmwGsADDbJdAVQr4UZdnTVWQKzUB15GGm0ACKAd3kAhqk4AsnP29T4rv3/sxVkYEAtq0qey4XOzrVCOAFALNcAl0GsN/S3HC8p+VMLqARyMiH5aHwAkCaRLgcxM2uIOJzZektJ7piBpRV142HpBWV9fQ/CocNAJ4EUeDWDCD2EPjw5Nyzp7KZoxshJmJNjVX6z7wSQjVQ8DyAW10UXRJIGyzV0reo4JdMzjAZMpq60up1C1VKNYEwg+rWDBcB+VSAWF+89fRUNfKCIBSyfX/pgYWiJAKBqVG+W+oE2Gvl6eYTXbE/vECekLGuK49ffEhENoBc7qpIMCAKB0i1qbe72YAmNcPUkNHU+UPrSy3oJk9FwBWAn1gaO93aOxtIuuv88UG/RW1S96J3jfCNWNzWd7QlOT512UFGFQVCtfMJ1QSIAU0eWMEQiHZHoSnZHT13fQBzmVyjKNB9sYIWGyFiuu4Wl99fEMEeEas10bPLdJ3komQknm0r0wxpZwDNHE12b2AQ4G7HJy3JxwpP5w4ZffSK6vXl2nE2AnzaQ9EggY+VZmzakOsWJKoOIss8muE8RbZOHzJqQZXni/yOYkO66wg1sUYEjs0MYnZRqHY+yI3UWOkGAfD9TCDpZacc3SjCZ10dG+gnZpCuysWR+x3CBqXGw6mHAe7VWm2blpLK6nV3p1LqbQIveyi4QkGHo/S7iWOxZK4Q+h8PF1sp1EOwwgNwiZD9KVg7k/HmRG7DaNuq4ocL90lKrRXgdY8UXYbgkFZ6Y+JYzABG9nqWtjKy/0XeEHIlgDtddssAFA9pkZZEPPrjeMvPChII1T5IYT2YdmC3dXwVwD4HasdYinJyYX9VuMjSaUM0wzb5sEjvEnQqS20+cbS5N9ellZ4DODpC0Bx9rgcFwH2azi7TRV4nkme6ShfXFSvlvAPgOQ+nHQbQpqnfnwrgVXj6q8LzlIO3SJgiF7o0xzAFX0Nh28lgYW/OJ1FlVf2C9LkqqJmiBl9p6u2J4O0/ZwJMVMJHQmuKrsFXB+AV1xqY9arYKQr2xD2e+e4yazXe/wCgVhPyKoDb3K5GCA6LYEtfT/R4tnfwmJK0XZNcC8EqD4C56DscqK1uc5BpoFmyaM3cPJ/PeJGxCrciXwVxUClle81BRkggGHmNlO0eVjEkZAe07Mw1RTdMfFkw/C2IJ9xqYC53oUQzzUFGJeWhyBGBLJ3wxfR74ni7zhRoyu4qWxJ5CSKxcQUfhLCdSlpO3nW2L5uXnEwPwIrQm3OE+eZfiVUCNYvAgTxca/sp/oE5M7N6XcsE+Q8FDOz5XzgMRAAAAABJRU5ErkJggg==);
         }
     }
+    &_play{
+        width: 81px;
+        height: 81px;
+        background-color: rgba($black, .5);
+        border-radius: 50%;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAjCAYAAABo4wHSAAACDUlEQVRYR72Xy05TURSGvzWRJzA8guEhSJzD2xDeRkYOmdYYrkEMxCggVMDIJdwEBUKpgJRW9JDf7EWapum5cM7Z05702+v2r39bFEWDwDDQD9SBCWABuDaziAKORVE0AgwAfcAf4Bz4DCwCR0WABX0VgO0x3QE/gCnBzexvngEL+rrHH94CH4G3wGle8Dio7nMPHALvgGXg6qkpTwL1RDSAJWAaOAZaWeFpoA73qKsh5ak7PAtU8BtgA/gAbJqZap/4ZIUK8C/MtWr9SVFr5JKk/ClQj0xRboV6rwO1OHAeUO9wqdlXYBI46AXOC+pRt4CfwGyY75tu8LyhDvdGq5jZfmeHFQV1juR0HJgHmh510VCv9wowB+wBv8uA+nidBSldKwvq6RZ4v2yolkezbOjFf2MQs08T62nMh1oKAqqLS6mpNFryOANsl9G9Uqg3wew1zEwXoKj0auFLh2VzvnVKYd5QdafcpIRAbvJXkdrru1U105bZ7WXi8ohU+roTTJsszHmR+1RjcA28D2sssVnLGqk3ijxx1cwET3yyQOWF1CiregVkMeBpoE2pSZg52dDH/Zg4xPBhEqg68ySsJbm+Sx/ytDD/Pg6qzlQaK8D3LKnsdjFBx4BnHT8qlaqdPO2cmUnOcjuCjgIv2t6nNeBLeBhryFM/G+JuJ+hLYAh4rhdZ2AZaQfUigLrQA4o1HdgXukPKAAAAAElFTkSuQmCC);
+        background-position: left 30px center;
+        background-repeat: no-repeat;
+        margin-top: 20px;
+    }
 }
 
 .slide {
@@ -180,7 +190,7 @@
             }
         }
     }
-    &--4 {
+    &--5 {
         .tutorial {
             &_img {
                 background-image: url(../img/5.png);
@@ -211,6 +221,42 @@
                     &::after {
                         top: auto;
                         bottom: 4px;
+                    }
+                }
+            }
+        }
+    }
+    &--6 {
+        .tutorial {
+            &_img {
+                background-image: url(../img/6.png);
+            }
+            &_line {
+                width: 365px;
+                height: 286px;
+                bottom: auto;
+                top: -30px;
+                border-top: 3px dashed $white;
+                border-bottom: 0;
+                &::before {
+                    width: 470px;
+                    bottom: 0;
+                    top: auto;
+                }
+                &::after {
+                    height: 190px;
+                    top: 0;
+                    bottom: auto;
+                }
+                &_circle {
+                    &::before {
+                        left: -485px;
+                        bottom: -9px;
+                        top: auto;
+                    }
+                    &::after {
+                        top: 185px;
+                        bottom: auto;
                     }
                 }
             }

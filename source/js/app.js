@@ -23,5 +23,9 @@ function change_slide() {
             break;
         case 5:
             header.innerHTML = 'Воспользуйтесь стрелками для<br>перелистывания страниц<br>обучающего материала<div class="tutorial_arrows"><div class="tutorial_arr tutorial_arr--left"></div><div class="tutorial_arr tutorial_arr--right"></div></div>';
+            break;
+        case 6:
+            header.innerHTML = 'Нажмите на значок «Play»,<br>чтобы запустить<br>обучающий видео ролик<div class="tutorial_play"></div>';
+            break;
     }
 }
