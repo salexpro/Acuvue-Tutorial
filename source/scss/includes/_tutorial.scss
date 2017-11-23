@@ -2,6 +2,7 @@
     height: 100%;
     background-color: $primary-color;
     cursor: pointer;
+    user-select: none;
     &_inner{
         position: absolute;
         top: 50%;
@@ -257,6 +258,39 @@
                     &::after {
                         top: 185px;
                         bottom: auto;
+                    }
+                }
+            }
+        }
+    }
+    &--7 {
+        .tutorial {
+            &_line {
+                width: 365px;
+                height: 162px;
+                bottom: -30px;
+                top: auto;
+                border-bottom: 3px dashed $white;
+                border-top: 0;
+                &::before {
+                    width: 210px;
+                    bottom: auto;
+                    top: 0;
+                }
+                &::after {
+                    height: 50px;
+                    top: auto;
+                    bottom: 0;
+                }
+                &_circle {
+                    &::before {
+                        left: -225px;
+                        bottom: auto;
+                        top: -9px;
+                    }
+                    &::after {
+                        top: auto;
+                        bottom: 43px;
                     }
                 }
             }

@@ -27,5 +27,7 @@ function change_slide() {
         case 6:
             header.innerHTML = 'Нажмите на значок «Play»,<br>чтобы запустить<br>обучающий видео ролик<div class="tutorial_play"></div>';
             break;
+        case 7:
+            header.innerHTML = 'Нажмите «Продолжить» после окончания видео ролика, чтобы перейти к следующему разделу<div class="button">Продолжить</div>'
     }
 }
