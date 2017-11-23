@@ -336,7 +336,7 @@
                     width: 450px;
                 }
                 &::after{
-                    border: 0;
+                    border-width: 0;
                 }
                 &_circle{
                     background-color: #8abfe1;
@@ -348,6 +348,50 @@
                     &::after{
                         background-color: #8abfe1;
                         bottom: 24px;
+                    }
+                }
+            }
+        }
+    }
+    &--10 {
+        .tutorial{
+            &_img {
+                background-image: url(../img/3.png);
+                height: 395px;
+                background-size: cover;
+                box-shadow: none;
+            }
+            &_line {
+                width: 365px;
+                height: 145px;
+                bottom: -30px;
+                top: auto;
+                border-bottom: 3px dashed $white;
+                border-top: 0;
+                right: auto;
+                left: -30px;
+                &::before {
+                    width: 210px;
+                    bottom: auto;
+                    top: 0;
+                }
+                &::after {
+                    height: 50px;
+                    top: auto;
+                    bottom: 0;
+                    border-width: 3px;
+                    height: 190px;
+                }
+                &_circle {
+                    &::before {
+                        left: -225px;
+                        bottom: auto;
+                        top: -9px;
+                    }
+                    &::after {
+                        top: auto;
+                        bottom: 185px;
+                        background-color: $white;
                     }
                 }
             }

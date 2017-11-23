@@ -33,5 +33,8 @@ function change_slide() {
         case 9:
             header.innerHTML = 'Введите любой логин и пароль.<br>Например, Логин – ABCDEF, Пароль – 123456<div class="button button--blue">войти</div>';
             break;
+        case 10:
+            header.innerHTML = 'Нажмите «Начать тест», чтобы<br>пройти тестирование своих<br>знаний по обучающему<br>материалу<div class="button">Начать тест</div>';
+            break;
     }
 }
