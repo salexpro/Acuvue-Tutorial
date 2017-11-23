@@ -30,5 +30,8 @@ function change_slide() {
         case 7:
             header.innerHTML = 'Нажмите «Продолжить» после окончания видео ролика, чтобы перейти к следующему разделу<div class="button">Продолжить</div>';
             break;
+        case 9:
+            header.innerHTML = 'Введите любой логин и пароль.<br>Например, Логин – ABCDEF, Пароль – 123456<div class="button button--blue">войти</div>';
+            break;
     }
 }

@@ -313,4 +313,44 @@
             }
         }
     }
+    &--9{
+        .tutorial{
+            &_img{
+                background-image: url(../img/9.png);
+                height: 450px;
+                background-size: auto;
+                background-repeat: no-repeat;
+                box-shadow: none;
+            }
+            &_line{
+                border-bottom: 0;
+                border-top: 3px dashed $white;
+                width: 130px;
+                height: 35px;
+                bottom: 152px;
+                left: auto;
+                right: 420px;
+                &::before{
+                    top: auto;
+                    bottom: 0;
+                    width: 450px;
+                }
+                &::after{
+                    border: 0;
+                }
+                &_circle{
+                    background-color: #8abfe1;
+                    &::before{
+                        top: auto;
+                        bottom: -9px;
+                        left: -464px;
+                    }
+                    &::after{
+                        background-color: #8abfe1;
+                        bottom: 24px;
+                    }
+                }
+            }
+        }
+    }
 }
