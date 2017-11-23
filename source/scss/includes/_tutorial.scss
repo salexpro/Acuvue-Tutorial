@@ -296,4 +296,21 @@
             }
         }
     }
+    &--8 {
+        .tutorial {
+            &_img{
+                background-image: url(../img/8.png);
+            }
+            &_line{
+                &::after{
+                    height: 70px;
+                }
+                &_circle{
+                    &::after{
+                        bottom: 65px;
+                    }
+                }
+            }
+        }
+    }
 }
