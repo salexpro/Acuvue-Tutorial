@@ -2,24 +2,6 @@
     height: 100%;
     background-color: $primary-color;
     cursor: pointer;
-    &.slide{
-        &--2{
-            .tutorial{
-                &_header{
-                    display: block;
-                    font-size: 24px;
-                    margin: 0;
-                    text-align: left;
-                }
-                &_img{
-                    display: block;
-                }
-            }
-        }
-        &--3{
-            
-        }
-    }
     &_inner{
         position: absolute;
         top: 50%;
@@ -52,7 +34,7 @@
     }
     &_line{
         position: absolute;
-        right: 125px;
+        left: -30px;
         top: -30px;
         width: 574px;
         height: 208px;
@@ -65,6 +47,10 @@
             top: 0;
             height: 29px;
             border-left: 3px dashed $white;
+        }
+        &::before {
+            content: '';
+            position: absolute;
         }
         &_circle{
             &::before{
@@ -79,12 +65,58 @@
                 z-index: 2;
             }
             &::after{
-                @extend .tutorial_line_circle::before;
+                content: '';
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
                 background-color: #8abfe1;
-                left: auto;
-                bottom: auto;
                 top: 22px;
                 right: -9px;
+                z-index: 2;
+            }
+        }
+    }
+}
+
+.slide {
+    &--2 {
+        .tutorial {
+            &_header {
+                display: block;
+                font-size: 24px;
+                margin: 0;
+                text-align: left;
+            }
+            &_img {
+                display: block;
+            }
+        }
+    }
+    &--3 {
+        .tutorial {
+            &_line {
+                width: 365px;
+                height: 295px;
+                &::before {
+                    bottom: 0;
+                    right: 100%;
+                    width: 150px;
+                    border-bottom: 3px dashed $white;
+                }
+                &::after{
+                    height: 190px;
+                }
+                &_circle {
+                    &::after {
+                        background-color: $white;
+                        top: 185px;
+                    }
+                    &::before {
+                        bottom: -9px;
+                        left: -166px;
+                    }
+                }
             }
         }
     }

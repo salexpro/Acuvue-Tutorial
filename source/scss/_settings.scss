@@ -278,19 +278,19 @@ $breadcrumbs-item-separator-color: $medium-gray;
 // ----------
 
 $button-font-family: inherit;
-$button-padding: 0.85em 1em;
-$button-margin: 0 0 $global-margin 0;
+$button-padding: 0.85em 3.3em;
+$button-margin: 40px 0 0 0;
 $button-fill: solid;
-$button-background: $primary-color;
-$button-background-hover: scale-color($button-background, $lightness: -15%);
-$button-color: $white;
+$button-background: $white;
+$button-background-hover: $white;
+$button-color: $primary-color;
 $button-color-alt: $black;
-$button-radius: $global-radius;
+$button-radius: 33px;
 $button-hollow-border-width: 1px;
 $button-sizes: (
   tiny: 0.6rem,
   small: 0.75rem,
-  default: 0.9rem,
+  default: 24px,
   large: 1.25rem,
 );
 $button-palette: $foundation-palette;

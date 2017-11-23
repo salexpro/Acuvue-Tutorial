@@ -19,6 +19,8 @@ function change_slide() {
             header_class.add('tutorial_header--left');
             break;
         case 3:
+            image.src = './img/3.png';
+            header.innerHTML = 'Чтобы начать обучение,<br>нажмите на кнопку «Начать<br>обучение».<div class="button">НАЧАТЬ ОБУЧЕНИЕ</div>';
             break;
     }
 }
