@@ -4460,6 +4460,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/img\/5.png": {
+		"ft": 32768,
+		"iS": 268691,
+		"oA": 0,
+		"oAP": "\/build\/img\/5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/js\/app.js": {
 		"ft": 64,
 		"ma": 0,

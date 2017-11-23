@@ -21,5 +21,7 @@ function change_slide() {
         case 4:
             header.innerHTML = 'Нажмите на язычок «Меню»,<br> чтобы открыть Меню для<br> перехода в другие разделы сайта<div class="tutorial_menu">Меню</div>';
             break;
+        case 5:
+            header.innerHTML = 'Воспользуйтесь стрелками для<br>перелистывания страниц<br>обучающего материала<div class="tutorial_arrows"><div class="tutorial_arr tutorial_arr--left"></div><div class="tutorial_arr tutorial_arr--right"></div></div>';
     }
 }

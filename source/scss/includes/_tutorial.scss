@@ -92,6 +92,27 @@
         color: $primary-color;
         border-radius: 0 0 33px 33px;
     }
+    &_arrows{
+        display: flex;
+        justify-content: space-between;
+        width: 195px;
+        margin-top: 20px;
+    }
+    &_arr{
+        width: 81px;
+        height: 81px;
+        background-color: $white;
+        border-radius: 50%;
+        background-position: right 32px center;
+        background-repeat: no-repeat;
+        &--left{
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAsCAYAAACQXhN9AAAEnUlEQVRYR62YW29UZRSGn/XtISrIyagkchA8zLSFeOOtKUOpiYEERKwnDlEvTEwk02mrHATZQmpTCy1gjAkxIqnpRYuSEC/U2GZAf4CRgu14wBNEoygtINDO/pbZQ6njdO9Op+2+nvbZ613veteaESbrcV2zpKt/rjWsUHgE4YpYjg5MHfxUJoVRVeWU/DX/XvHsiyDrgDsABX4ToXoyIBKtTC6KZEiqshFhRu6Lq+qxCUNKK2rvRm0C5Vlgdr4yqnRNCBKtTN4TyegOVVmFcFuA9JdAt4wb4lcg1nMVeRK4JQBwBWjD0x3jgsQefuUuZ2BwpwpPA9MDAFdRadMIjT2dzd8WDVlSXjPfM7obeByYFgC4BnzgmEhDd/m0M7iuLQYiiysT861ntqM8EwhQ/hHRdpD606mW74dszNggVVVO2R/zFim8hLIhsMlKP/AJjjZ+Uz7rK7+CG1UWhriuKfmi/z48WyPXB+3WAIkuqnBEsY29t5/7jo4OL/czBSEl8eqFAgmQ54CZwU3mmI3Y+t7O/SdvSDRmyOLKxAJv0NQKrA+RaAChXaw032lmnEyl3ExQTIVVIqUVtQtU7U6xrM2PiqF/dBXVdhHZfTo+84fcHuSDAiHXbcpm0OcDB03JVuBh6tOpvb1BEo0qV8nymqh4ug14NLQHQqunpjkdn54erYJAd0UrknMdSz1KFcLU4EGTVsXW96T2/VSognyIxMrrFop41SJsCEpT4DIix9TThp6KmafGUsF/ENc10S/7FjoZqQHdGJJFlwQ9kp3kAk0OdJffZGs0ofBCCOAy6MfGcXad6tx7ejybVMqWVm9SkVeBOYGDJnIUsXvyo6IYmJTFk10Ky0b8kWIRWh2rjd1zzqbzo6IoSGk8mQKWBkHUcBjVXcU4KbAnZfHqOiUr16wAUL+IfmQd0+Avn7FadsTEx8rrFhljt4GuB24OSlhUOhzF7T7R/EsxMuXOicSWJaKONa+psCYkRvoV3o9E7Bvdnft/LxZ0I7skGq+NRfA2K+Kv1ZE7w19KQpsXoSn9ecuZYqT7X0DGliVixppdCCtD9vdFgYMSsQdOPTT717FOfX4KSyyefNCI1GB1ZUjEnxfVw4i8k7vHR5MwKOqz0jnYLcBTwE3BZqBVRZt6Uvt+LNSj0KW1eHltqfXsDmB1mBkQafWMNqS7Ws4WW8mw83zXGXXqQP2Kgg8ItA3HNI82R4UOiay9jZqXAf9SCZqjS8CH1jqv957Y47tuxFMIAq5ryo73lWLZpsJjIaA+VQ5bhzfTXS3n8u1dGOK/l+ua2PG/7zdqtgJPhPeIjux52tXkX4/Dz9ggQx/P7n+Li9XVIev5IvDeFDJ7vk695ZvB/7Y1xjM156VKypNLRNiOsCLEDBcUeRfs2z3xWT8Xe3APu25ojvzk9rMu6LK/gHBIVQ/4a6IouXJlzs6RtS7KqpCB7UM4OJjJNI0XkpXalw4jm0V1TUiPzqvK1olAsiB/jkQlGXrxK59NFJIF5ayJEd8fBZm8HwvK/pxXolZqEK3KOa0uIJKYjEqGXfdAfNPcQaasU1gr2GsiHBIdaP8XiNvdCpZd8+cAAAAASUVORK5CYII=);
+        }
+        &--right{
+            background-position: left 32px center;
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAsCAYAAACQXhN9AAAEw0lEQVRYR62Y7W9TZRjGr+s53RDFzTeiMhUns+teMP4BQstmRBNjgjo+EBUxaqIEWMvmMhfwIO/K1jWamPhBDTBFB86RQDCOURe/+sUAW+sLKGCCGhkbjBF6nts83UbGds7abvZze//Odb9c933KkqfWFOQP5S0VhWUQzCZwRGkcPl5VcA62rfE/fFi+JLxcBK0A7gFAAH8D0iaW+qjvjjO/or3dmSmHgWBtJ8lnbggkGCCxO+VDNNkVPQVAZgJiIBg+SqLKJcgFEJ+BKtbb3fz7jCBlodrVAHcAmDMpkOBfUg6mfNyc7Ir+Nl0QyxbV3guLmwGsADDbJdAVQr4UZdnTVWQKzUB15GGm0ACKAd3kAhqk4AsnP29T4rv3/sxVkYEAtq0qey4XOzrVCOAFALNcAl0GsN/S3HC8p+VMLqARyMiH5aHwAkCaRLgcxM2uIOJzZektJ7piBpRV142HpBWV9fQ/CocNAJ4EUeDWDCD2EPjw5Nyzp7KZoxshJmJNjVX6z7wSQjVQ8DyAW10UXRJIGyzV0reo4JdMzjAZMpq60up1C1VKNYEwg+rWDBcB+VSAWF+89fRUNfKCIBSyfX/pgYWiJAKBqVG+W+oE2Gvl6eYTXbE/vECekLGuK49ffEhENoBc7qpIMCAKB0i1qbe72YAmNcPUkNHU+UPrSy3oJk9FwBWAn1gaO93aOxtIuuv88UG/RW1S96J3jfCNWNzWd7QlOT512UFGFQVCtfMJ1QSIAU0eWMEQiHZHoSnZHT13fQBzmVyjKNB9sYIWGyFiuu4Wl99fEMEeEas10bPLdJ3komQknm0r0wxpZwDNHE12b2AQ4G7HJy3JxwpP5w4ZffSK6vXl2nE2AnzaQ9EggY+VZmzakOsWJKoOIss8muE8RbZOHzJqQZXni/yOYkO66wg1sUYEjs0MYnZRqHY+yI3UWOkGAfD9TCDpZacc3SjCZ10dG+gnZpCuysWR+x3CBqXGw6mHAe7VWm2blpLK6nV3p1LqbQIveyi4QkGHo/S7iWOxZK4Q+h8PF1sp1EOwwgNwiZD9KVg7k/HmRG7DaNuq4ocL90lKrRXgdY8UXYbgkFZ6Y+JYzABG9nqWtjKy/0XeEHIlgDtddssAFA9pkZZEPPrjeMvPChII1T5IYT2YdmC3dXwVwD4HasdYinJyYX9VuMjSaUM0wzb5sEjvEnQqS20+cbS5N9ellZ4DODpC0Bx9rgcFwH2azi7TRV4nkme6ShfXFSvlvAPgOQ+nHQbQpqnfnwrgVXj6q8LzlIO3SJgiF7o0xzAFX0Nh28lgYW/OJ1FlVf2C9LkqqJmiBl9p6u2J4O0/ZwJMVMJHQmuKrsFXB+AV1xqY9arYKQr2xD2e+e4yazXe/wCgVhPyKoDb3K5GCA6LYEtfT/R4tnfwmJK0XZNcC8EqD4C56DscqK1uc5BpoFmyaM3cPJ/PeJGxCrciXwVxUClle81BRkggGHmNlO0eVjEkZAe07Mw1RTdMfFkw/C2IJ9xqYC53oUQzzUFGJeWhyBGBLJ3wxfR74ni7zhRoyu4qWxJ5CSKxcQUfhLCdSlpO3nW2L5uXnEwPwIrQm3OE+eZfiVUCNYvAgTxca/sp/oE5M7N6XcsE+Q8FDOz5XzgMRAAAAABJRU5ErkJggg==);
+        }
+    }
 }
 
 .slide {
@@ -154,6 +175,42 @@
                     }
                     &::after{
                         top: 4px;
+                    }
+                }
+            }
+        }
+    }
+    &--4 {
+        .tutorial {
+            &_img {
+                background-image: url(../img/5.png);
+            }
+            &_line {
+                width: 670px;
+                height: 170px;
+                top: auto;
+                bottom: -30px;
+                border-top: 0;
+                border-bottom: 3px dashed $white;
+                &::before {
+                    width: 350px;
+                    bottom: auto;
+                    top: 0;
+                }
+                &::after {
+                    height: 10px;
+                    top: auto;
+                    bottom: 0;
+                }
+                &_circle {
+                    &::before {
+                        left: -365px;
+                        bottom: auto;
+                        top: -9px;
+                    }
+                    &::after {
+                        top: auto;
+                        bottom: 4px;
                     }
                 }
             }
