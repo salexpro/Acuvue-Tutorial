@@ -28,9 +28,13 @@
     &_img{
         display: none;
         flex: 0 0 670px;
+        height: 395px;
         margin-left: 50px;
         box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
         position: relative;
+        background-image: url(../img/2.png);
+        background-position: center;
+        background-size: cover;
     }
     &_line{
         position: absolute;
@@ -77,6 +81,17 @@
             }
         }
     }
+    &_menu {
+        width: 164px;
+        height: 66px;
+        background-color: $white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        color: $primary-color;
+        border-radius: 0 0 33px 33px;
+    }
 }
 
 .slide {
@@ -95,6 +110,9 @@
     }
     &--3 {
         .tutorial {
+            &_img{
+                background-image: url(../img/3.png);
+            }
             &_line {
                 width: 365px;
                 height: 295px;
@@ -113,8 +131,29 @@
                         top: 185px;
                     }
                     &::before {
-                        bottom: -9px;
+                        bottom: -8px;
                         left: -166px;
+                    }
+                }
+            }
+        }
+    }
+    &--4 {
+        .tutorial {
+            &_line {
+                height: 285px;
+                &::before{
+                    width: 390px;
+                }
+                &::after{
+                    height: 10px;
+                }
+                &_circle{
+                    &::before {
+                        left: -405px;
+                    }
+                    &::after{
+                        top: 4px;
                     }
                 }
             }
