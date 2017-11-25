@@ -16,6 +16,10 @@ function change_slide() {
     if(slide < 11){
         slide++;
         wrapper_class.add('slide--' + slide);
+        clearInterval(change);
+        change = setInterval(function () {
+            change_slide();
+        }, 8000);
     } else {
         clearInterval(change);
         return false;
