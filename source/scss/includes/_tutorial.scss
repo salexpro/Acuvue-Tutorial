@@ -130,7 +130,9 @@
     &--2 {
         .tutorial {
             &_header {
-                display: block;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
                 font-size: 24px;
                 margin: 0;
                 text-align: left;
@@ -296,24 +298,7 @@
             }
         }
     }
-    &--8 {
-        .tutorial {
-            &_img{
-                background-image: url(../img/8.png);
-            }
-            &_line{
-                &::after{
-                    height: 70px;
-                }
-                &_circle{
-                    &::after{
-                        bottom: 65px;
-                    }
-                }
-            }
-        }
-    }
-    &--9{
+    &--8{
         .tutorial{
             &_img{
                 background-image: url(../img/9.png);
@@ -326,8 +311,8 @@
                 border-bottom: 0;
                 border-top: 3px dashed $white;
                 width: 130px;
-                height: 35px;
-                bottom: 152px;
+                height: 60px;
+                bottom: 125px;
                 left: auto;
                 right: 420px;
                 &::before{
@@ -347,23 +332,23 @@
                     }
                     &::after{
                         background-color: #8abfe1;
-                        bottom: 24px;
+                        bottom: 48px;
                     }
                 }
             }
         }
     }
-    &--10 {
-        .tutorial{
-            &_img {
-                background-image: url(../img/3.png);
+    &--9 {
+        .tutorial {
+            &_img{
+                background-image: url(../img/8.png);
                 height: 395px;
                 background-size: cover;
                 box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
             }
             &_line {
                 width: 365px;
-                height: 145px;
+                height: 162px;
                 bottom: -30px;
                 top: auto;
                 border-bottom: 3px dashed $white;
@@ -376,11 +361,10 @@
                     top: 0;
                 }
                 &::after {
-                    height: 50px;
+                    height: 70px;
                     top: auto;
                     bottom: 0;
                     border-width: 3px;
-                    height: 190px;
                 }
                 &_circle {
                     &::before {
@@ -390,8 +374,31 @@
                     }
                     &::after {
                         top: auto;
-                        bottom: 185px;
+                        bottom: 65px;
                         background-color: $white;
+                    }
+                }
+            }
+        }
+    }
+    &--10 {
+        .tutorial{
+            &_img {
+                background-image: url(../img/10.png);
+            }
+            &_line {
+                height: 145px;
+                &::before {
+                    width: 210px;
+                    bottom: auto;
+                    top: 0;
+                }
+                &::after {
+                    height: 190px;
+                }
+                &_circle {
+                    &::after {
+                        bottom: 185px;
                     }
                 }
             }

@@ -4420,23 +4420,16 @@
 		"oAP": "\/build\/build",
 		"oF": 0
 		},
-	"\/README.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
+	"\/source\/img\/10.png": {
+		"ft": 32768,
+		"iS": 453214,
 		"oA": 0,
-		"oAP": "\/build\/README.html",
+		"oAP": "\/build\/img\/10.png",
 		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/source\/img\/11.png": {
 		"ft": 32768,
@@ -4627,7 +4620,7 @@
 	"displayValue": "Acuvue Tutorial",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-maroney",
-	"lastBuiltDate": 531355165
+	"lastBuiltDate": 533330896
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
