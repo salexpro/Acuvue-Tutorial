@@ -1,30 +1,38 @@
 // Tutorial
-var slide = 1,
+var first = 1,
+    last = 11,
+    current = first,
+    prev_butt = document.querySelector('.switcher_button--prev'),
     wrapper = document.querySelector('.tutorial'),
     wrapper_class = wrapper.classList,
     header  = document.querySelector('.tutorial_header');
 
-wrapper.addEventListener('click', function () {
-    change_slide();
+document.querySelector('.switcher').addEventListener('click', function(e) {
+    var action = e.target.dataset.action;
+    change_slide(action);
 });
 
-var change = setInterval(function() {
-    change_slide();
-}, 8000);
-
-function change_slide() {
-    if(slide < 11){
-        slide++;
-        wrapper_class.add('slide--' + slide);
-        clearInterval(change);
-        change = setInterval(function () {
-            change_slide();
-        }, 8000);
+function change_slide(action) {
+    if (action == 'prev') {
+        wrapper_class.remove('slide--' + current);
+        current--;
+    } else if (current < last){
+        current++;
+        wrapper_class.add('slide--' + current);
     } else {
-        clearInterval(change);
+        preza.emit('changeSlide');
         return false;
     }
-    switch (slide) {
+
+    if (current > first){
+        prev_butt.disabled = false;
+    } else {
+        prev_butt.disabled = true;
+    }
+    switch (current) {
+        case 1:
+            header.innerHTML = 'инструкция по<br>эксплуатации сайта';
+            break;
         case 2:
             header.innerHTML = 'Чтобы выбрать материал для обучения нажмите в «Меню» на кнопку «Обучение».<br>После выберете тренинг, который хотите изучить.';
             break;

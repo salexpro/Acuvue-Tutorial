@@ -4508,9 +4508,31 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/img\/preza-arrow-white.png": {
+		"ft": 32768,
+		"iS": 6454,
+		"oA": 0,
+		"oAP": "\/build\/img\/preza-arrow-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/preza-arrow.png": {
+		"ft": 32768,
+		"iS": 6589,
+		"oA": 0,
+		"oAP": "\/build\/img\/preza-arrow.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/js\/app.js": {
 		"ft": 64,
-		"ma": 0,
+		"ma": 1,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/js\/app.min.js",
@@ -4593,6 +4615,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/build\/scss\/css\/_layout.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/scss\/includes\/_switcher.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/build\/scss\/css\/_switcher.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
