@@ -1,8 +1,8 @@
 .tutorial{
     height: 100%;
     background-color: $primary-color;
-    cursor: pointer;
-    user-select: none;
+    // cursor: pointer;
+    // user-select: none;
     &_inner{
         position: absolute;
         top: 50%;
@@ -338,7 +338,35 @@
             }
         }
     }
-    &--9 {
+    &--9{
+        .tutorial {
+            &_img {
+                background-image: url(../img/9-1.png);
+            }
+            &_line{
+                border-top: 0;
+                border-bottom: 3px dashed $white;
+                bottom: 165px;
+                &::before{
+                    bottom: auto;
+                    top: 0;
+                    width: 140px;
+                }
+                &_circle{
+                    &::before{
+                        left: -155px;
+                        top: -9px;
+                        bottom: auto;
+                    }
+                    &::after{
+                        top: auto;
+                        bottom: -11px;
+                    }
+                }
+            }
+        }
+    }
+    &--10 {
         .tutorial {
             &_img{
                 background-image: url(../img/8.png);
@@ -351,8 +379,6 @@
                 height: 162px;
                 bottom: -30px;
                 top: auto;
-                border-bottom: 3px dashed $white;
-                border-top: 0;
                 right: auto;
                 left: -30px;
                 &::before {
@@ -381,7 +407,7 @@
             }
         }
     }
-    &--10 {
+    &--11 {
         .tutorial{
             &_img {
                 background-image: url(../img/10.png);
@@ -404,7 +430,7 @@
             }
         }
     }
-    &--11 {
+    &--12 {
         .tutorial{
             &_img {
                 background-image: url(../img/11.png);

@@ -1,6 +1,6 @@
 // Tutorial
 var first = 1,
-    last = 11,
+    last = 12,
     current = first,
     prev_butt = document.querySelector('.switcher_button--prev'),
     wrapper = document.querySelector('.tutorial'),
@@ -55,12 +55,15 @@ function change_slide(action) {
             header.innerHTML = 'Введите любой логин и пароль.<br>Например, Логин – ABCDEF, Пароль – 123456. Нажмите на кнопку – ВОЙТИ. И потренируйтесь в работе с приложением для сотрудников оптик.<div class="button button--blue">войти</div>';
             break;
         case 9:
-            header.innerHTML = 'Нажмите «Продолжить» после окончания видео ролика, чтобы перейти к следующему разделу<div class="button">Продолжить</div>';
+            header.innerHTML = 'Вы так же можете потренироваться и в других разделах мобильного приложения. Нажмите на кнопку и перейдите в интересующий вас раздел';
             break;
         case 10:
-            header.innerHTML = 'Нажмите «Начать тест», чтобы<br>пройти тестирование своих<br>знаний по обучающему<br>материалу<div class="button">Начать тест</div>';
+            header.innerHTML = 'Нажмите «Продолжить» после окончания видео ролика, чтобы перейти к следующему разделу<div class="button">Продолжить</div>';
             break;
         case 11:
+            header.innerHTML = 'Нажмите «Начать тест», чтобы<br>пройти тестирование своих<br>знаний по обучающему<br>материалу<div class="button">Начать тест</div>';
+            break;
+        case 12:
             header.innerHTML = 'Для того, чтобы выбрать<br>вариант ответа нажмите на<br>него После нажатия<br> изменится цвет на темно<br>синий';
             break;
         default:
