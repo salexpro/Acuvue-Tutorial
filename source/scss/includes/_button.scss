@@ -1,5 +1,6 @@
 .button{
     display: block;
+    cursor: default;
     &--blue{
         background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAPCAYAAAAGRPQsAAAA7klEQVQ4T6XTMWqCQRCG4fdTm7S5SPAi1hYmXdBCIwGVNCagQkAbA2KjxMYmRa4SPIHHSJkJK/vDKAZ245bLzLMfM6xIPGZWA0bAh6TXc21KtDCzL6Aa68eSnk97c7AZ0HPASNKLB3OwMvAO3DngKGEyFgAzC+AGuD0HZmEO3AJ1Bw4lTWRmT8ADUEldBhASXp/UdwP2DVxlQH+V7gM2BzpA6UJwcphZHGwqFnoWwL17fC7p8T8LeIszLqwl0JZkWZiZTYG+S7QCWpJ+wl0yFrfu/+QaaBZQLrYDbmKqo0RF0pxkDWAMfAIDn6jAfgESm07VYy1JTAAAAABJRU5ErkJggg==);
         background-repeat: no-repeat;
